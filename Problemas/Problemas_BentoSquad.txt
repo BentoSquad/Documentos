@@ -1,0 +1,7 @@
+Problemas
+- Perda de tempo (o que um humano faria, uma máquina faria mais rápido)
+- Possibilidade de erros humanos (humanos são falhos, com máquina os erros tendem a ser menores)
+- Dificuldade de análise (existem diversas ferramentas para análise de dados como algumas bibliotecas python que facilitam análises, de forma manual é mais difícil e inificiente)
+- Consumo de energia
+- Procedimentos de Ação para Defeitos
+- Segurança
