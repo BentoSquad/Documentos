@@ -18,6 +18,34 @@ A implementação do nosso produto trará a empresa muitos benefícios, pois a s
 - Procedimentos de Ação para Defeitos
 - Segurança
 
+## Requisitos funcionais
+
+1. Coleta automatizada de dados: As máquinas de produção devem poder coletar dados em tempo real para o sistema.
+
+2. Análise automatizada de dados: Para melhorar a visão da produção, o sistema deve realizar análises de dados automaticamente.
+
+3. Monitoramento automatizado de máquinas: O sistema deve monitorar as máquinas em tempo real para prevenir falhas.
+
+4. Previsão de manutenção preventiva: O sistema deve prever a necessidade de manutenção preventiva para reduzir o tempo de inatividade.
+
+5. Inspeção de qualidade automatizada: O sistema deve usar uma visão computacional para automatizar a inspeção de qualidade das peças, detectando defeitos.
+
+6. Ajuste dinâmico dos parâmetros da máquina: Para maximizar o consumo de energia, o sistema deve ajustar dinamicamente os parâmetros da máquina.
+
+## Requisitos não  funcionais
+
+1. Eficiência: O sistema deve funcionar com mais eficiência que os métodos manuais, o que significa que o tempo necessário para coleta, análise e tomada de decisões será reduzido.
+
+2. Precisão: Em comparação com a análise e monitoramento manuais, o sistema deve ter o menor número de erros possíveis.
+
+3. Segurança: O sistema deve ser protegido, impedindo que pessoas não autorizadas entrem nele e garantindo que os dados coletados e analisados sejam confidenciais. 
+
+4. Eficiência Energética: O sistema deve reduzir o consumo de energia, principalmente ajustando dinamicamente os parâmetros da máquina.
+
+5. Escalabilidade: O sistema deve ser capaz de suportar uma maior quantidade de dados e máquinas sem perder muito desempenho.
+
+6. Confiabilidade: O sistema deve ser confiável, com baixo tempo de inatividade e sem falhas.
+
 ## Público
 #### Público alvo:
 
