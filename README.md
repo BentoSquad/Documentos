@@ -1,15 +1,13 @@
-# Documentos
+# 📃Documentos
 
-## PRD
-#### Introdução
-
+## 📄PRD
+#### 📖Introdução
 O objetivo do nosso produto é proporcionar a fábrica de produção de peças para automóveis uma maior eficiência utilizando um sistema de coleta e análise de dados automatizado
 
-#### Por que implementar
-
+#### ❓Por que implementar
 A implementação do nosso produto trará a empresa muitos benefícios, pois a substituição de um sistema manual por um sistema automatizado fará com que a produtividade seja maior, assim trazendo mais oportunidades e visibilidade para seu negócio. A partir da coleta e análise de dados de maneira automatizada é possível ter uma melhor visualização da produção em tempo real, possibilitando futuras tomadas de decisões.
 
-## Problemas
+## ❗Problemas
 #### Problemas
 - Perda de tempo (o que um humano faria, uma máquina faria mais rápido)
 - Possibilidade de erros humanos (humanos são falhos, com máquina os erros tendem a ser menores)
@@ -18,35 +16,106 @@ A implementação do nosso produto trará a empresa muitos benefícios, pois a s
 - Procedimentos de Ação para Defeitos
 - Segurança
 
-## Requisitos funcionais
+## 📚Requisitos funcionais
+1. Monitoramento em Tempo Real:
 
-1. Coleta automatizada de dados: As máquinas de produção devem poder coletar dados em tempo real para o sistema.
+- O sistema deve monitorar os dados das máquinas em tempo real.
 
-2. Análise automatizada de dados: Para melhorar a visão da produção, o sistema deve realizar análises de dados automaticamente.
+- Exibir dados coletados de sensores e relatar problemas de eficiência, consumo de energia e defeitos.
 
-3. Monitoramento automatizado de máquinas: O sistema deve monitorar as máquinas em tempo real para prevenir falhas.
+2. Verificação e Ação para Defeitos:
 
-4. Previsão de manutenção preventiva: O sistema deve prever a necessidade de manutenção preventiva para reduzir o tempo de inatividade.
+- O sistema deve verificar a presença de defeitos nos processos de produção.
 
-5. Inspeção de qualidade automatizada: O sistema deve usar uma visão computacional para automatizar a inspeção de qualidade das peças, detectando defeitos.
+- Executar procedimentos de ação corretiva em caso de defeitos, como revisão do fornecedor de matéria-prima e treinamento dos funcionários.
 
-6. Ajuste dinâmico dos parâmetros da máquina: Para maximizar o consumo de energia, o sistema deve ajustar dinamicamente os parâmetros da máquina.
+3. Gerenciamento de Alertas:
 
-## Requisitos não  funcionais
+- Gerar alertas de segurança, manutenção preventiva e qualidade.
+- Notificar os responsáveis (equipe de manutenção, analista de projetos, etc.) sobre esses alertas.
 
-1. Eficiência: O sistema deve funcionar com mais eficiência que os métodos manuais, o que significa que o tempo necessário para coleta, análise e tomada de decisões será reduzido.
+4. Relatórios e Análises:
 
-2. Precisão: Em comparação com a análise e monitoramento manuais, o sistema deve ter o menor número de erros possíveis.
+- Produzir relatórios de eficiência energética, consumo de energia, e qualidade.
+- Fornecer recomendações de otimização da produção com base nos relatórios.
 
-3. Segurança: O sistema deve ser protegido, impedindo que pessoas não autorizadas entrem nele e garantindo que os dados coletados e analisados sejam confidenciais. 
+5. Integração com Equipes e Sistemas de Segurança:
 
-4. Eficiência Energética: O sistema deve reduzir o consumo de energia, principalmente ajustando dinamicamente os parâmetros da máquina.
+- O sistema deve integrar-se com a equipe de manutenção, engenheiros de produção, analistas de projetos e gestores para coordenar ações.
+- Deve se conectar ao sistema de segurança para automatizar processos e respostas a alertas de segurança.
 
-5. Escalabilidade: O sistema deve ser capaz de suportar uma maior quantidade de dados e máquinas sem perder muito desempenho.
+6. Treinamento de Funcionários:
 
-6. Confiabilidade: O sistema deve ser confiável, com baixo tempo de inatividade e sem falhas.
+- Gerar conteúdo e planos de treinamento para funcionários com base nos relatórios de produção e defeitos.
 
-## Público
+7. Gestão de Procedimentos de Manutenção:
+
+- O sistema deve permitir o agendamento e rastreamento de procedimentos de manutenção preventiva e corretiva.
+- Deve enviar notificações automáticas sobre a necessidade de manutenção baseada nos dados de uso e condição dos equipamentos.
+
+8. Análise Preditiva:
+
+- O sistema deve utilizar dados históricos e em tempo real para prever falhas potenciais e sugerir ações preventivas.
+
+- Deve oferecer relatórios de análise preditiva para otimizar a eficiência da produção.
+
+9. Integração com Sistemas Externos:
+
+- Suporte para APIs para facilitar a comunicação com outros sistemas.
+
+10. Gestão de Inventário:
+
+- Controle e rastreamento de inventário de peças de reposição e outros materiais necessários para a manutenção.
+
+## 📚Requisitos não  funcionais
+1. Desempenho e Escalabilidade:
+
+- O sistema deve ser capaz de processar dados em tempo real de várias fontes simultaneamente sem degradação de desempenho.
+
+- Escalabilidade para acomodar o aumento de dados de novos sensores e dispositivos adicionados ao ambiente de produção.
+
+2. Confiabilidade e Robustez:
+
+- Deve ser confiável, garantindo alta disponibilidade e resistência a falhas.
+- O sistema deve continuar funcionando mesmo com falhas parciais, como falhas de sensores individuais.
+
+3. Segurança:
+
+- Implementar medidas de segurança para proteger dados sensíveis coletados de sensores e informações de manutenção.
+
+- Controle de acesso adequado para diferentes níveis de usuários, garantindo que apenas usuários autorizados possam realizar certas ações.
+
+4. Usabilidade:
+
+- A interface do sistema deve ser intuitiva e fácil de usar para diferentes tipos de usuários, desde técnicos de manutenção até gestores.
+
+5. Manutenibilidade:
+
+- O sistema deve ser fácil de manter e atualizar com o mínimo de interrupções nos serviços.
+
+6. Compatibilidade:
+
+- Compatibilidade com sistemas existentes de segurança e gerenciamento de produção.
+
+- Suporte para múltiplos dispositivos e navegadores.
+
+7. Performance de Interface:
+
+- A interface deve responder rapidamente a comandos e atualizações, garantindo uma experiência de usuário fluida.
+
+8. Conformidade Regulamentar:
+
+- O sistema deve estar em conformidade com normas e regulamentos industriais e de segurança aplicáveis.
+
+9. Backup e Recuperação de Desastres:
+
+- Implementação de estratégias de backup regular e recuperação de desastres para proteger contra perda de dados.
+
+10. Monitoramento de Saúde do Sistema:
+
+- Ferramentas de monitoramento para garantir que o sistema esteja funcionando corretamente e para detectar problemas proativamente.
+
+## 👨‍🏭Público
 #### Público alvo:
 
 - Equipe de manutenção 
@@ -82,46 +151,50 @@ Experiência: 12 anos na garantia de qualidade em ambientes de manufatura.
 Desafios: Manter altos padrões de qualidade enquanto lida com grandes volumes de produção.
 Necessidades: Um sistema que automatize a inspeção de qualidade, utilizando visão computacional para detectar defeitos nas peças, garantindo conformidade com os padrões industriais.
 
-## Diagramas
-[Modelo de Método de Priorização](https://miro.com/app/board/uXjVKlCAZVc=/?share_link_id=511575989259)
+## 📊Diagramas
+[Modelo de Método de Priorização/Diagramas](https://miro.com/app/board/uXjVKlCAZVc=/?share_link_id=511575989259)
 
 #### Diagrama de Contexto
 ```mermaid
 graph TD
-    A[Dados de Sensores das Máquinas] --> B[Sistema de Controle de Processos de Análise de Dados]
+    %% Entradas para o sistema de controle
+    A[Dados de Sensores das Máquinas] --> B[Sistema de Controle e Análise de Dados]
     C[Relatórios de Produção] --> B
     D[Informações de Manutenção] --> B
     E[Dados de Consumo de Energia] --> B
     F[Alertas de Segurança] --> B
     
+    %% Saídas do sistema de controle
     B --> G[Relatórios de Eficiência Energética]
     B --> H[Relatórios de Manutenção Preventiva]
     B --> I[Relatórios de Qualidade]
     B --> J[Recomendações de Otimização de Produção]
     B --> K[Alertas de Segurança]
 
-    L[Equipe de Manutenção] -->|Feedback| M[Engenheiro de Produção]
-    M -->|Feedback| N[Analista de Projetos]
-    N -->|Feedback| O[Gestor de Produção]
-    O -->|Feedback| P[Gerente de Produção]
+    %% Feedback entre equipes
+    subgraph "Fluxo de Feedback"
+        L[Equipe de Manutenção] -->|Feedback| M[Engenheiro de Produção]
+        M -->|Feedback| N[Analista de Projetos]
+        N -->|Feedback| O[Gestor de Produção]
+        O -->|Feedback| P[Gerente de Produção]
+    end
 
+    %% Ligações adicionais
     B --> M
     F --> P
-    
-    %% Legendas
-    B:::highlighted
-    style B fill:#00BFFF,stroke:#333,stroke-width:2px
 
+    %% Estilo e Legendas
+    B:::highlighted
     classDef highlighted fill:#00BFFF,stroke:#333,stroke-width:2px;
 
     %% Problemas relacionados
-    subgraph Problemas
-    Q1[1. Perda de Tempo]
-    Q2[2. Possibilidade de Erros Humanos]
-    Q3[3. Dificuldade de Análise]
-    Q4[4. Consumo de Energia]
-    Q5[5. Procedimento de Ação para Defeitos]
-    Q6[6. Segurança]
+    subgraph Problemas Relacionados
+        Q1[1. Perda de Tempo]
+        Q2[2. Possibilidade de Erros Humanos]
+        Q3[3. Dificuldade de Análise]
+        Q4[4. Consumo de Energia]
+        Q5[5. Procedimento de Ação para Defeitos]
+        Q6[6. Segurança]
     end
 
     B --> Q1
