@@ -210,4 +210,7 @@ Necessidades: Um sistema que automatize a inspeção de qualidade, utilizando vi
 - Ferramentas de monitoramento para garantir que o sistema esteja funcionando corretamente e para detectar problemas proativamente.
 
 ## 📊Diagramas
+
 [Modelo de Método de Priorização/Diagramas](https://miro.com/app/board/uXjVKlCAZVc=/?share_link_id=511575989259)
+
+[Diagramas Mermaid](mermaid.md)
