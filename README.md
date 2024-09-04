@@ -43,7 +43,7 @@ A implementação do nosso produto trará a empresa muitos benefícios, pois a s
 
 ## 🤵Personas:
 
-- Nome: 🧑‍💼Carlos Oliveira
+#### Nome: 🧑‍💼Carlos Oliveira
 - Idade: 45 anos
 - Ocupação: Gerente de Produção
 #### Características:
@@ -52,7 +52,7 @@ A implementação do nosso produto trará a empresa muitos benefícios, pois a s
 - Necessidades: Um sistema que automatize o monitoramento das máquinas, identificando falhas potenciais antes que ocorram e que possa prever a necessidade de manutenção preventiva, reduzindo o tempo de inatividade.
 
 
-- Nome: 🧑‍🔬Ana Paula
+#### Nome: 🧑‍🔬Ana Paula
 - Idade: 32 anos
 - Ocupação: Engenheira de Processos
 #### Características:
@@ -60,7 +60,7 @@ A implementação do nosso produto trará a empresa muitos benefícios, pois a s
 - Desafios: Melhorar a eficiência energética da fábrica sem comprometer a qualidade da produção.
 - Necessidades: Um sistema que automatize a coleta e análise de dados energéticos em tempo real, ajustando dinamicamente os parâmetros das máquinas para minimizar o consumo de energia.
 
-- Nome: 👩‍💼Mariana Costa
+#### Nome: 👩‍💼Mariana Costa
 - Idade: 39 anos
 - Ocupação: Analista de Qualidade
 #### Características:
